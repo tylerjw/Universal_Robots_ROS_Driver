@@ -1,3 +1,5 @@
+This is a fork of `git@github.com:UniversalRobots/Universal_Robots_ROS_Driver` at commit `72453e14bfc262ade27c31d2086efc37a26543c6` with the CHANGELOG.rst files cleaned up and a version tagged to make it work in the buildfarm.
+
 [![Build badge](https://github.com/UniversalRobots/Universal_Robots_ROS_Driver/workflows/Industrial%20CI%20pipeline/badge.svg?branch=master&event=push)](https://github.com/UniversalRobots/Universal_Robots_ROS_Driver/actions)
 
 # Universal_Robots_ROS_Driver
@@ -12,24 +14,24 @@ It is the core value of Universal Robots, to empower people to achieve any goal 
 ## Acknowledgement
 This driver is forked from the [ur_modern_driver](https://github.com/ros-industrial/ur_modern_driver).
 
-<!-- 
+<!--
     ROSIN acknowledgement from the ROSIN press kit
     @ https://github.com/rosin-project/press_kit
 -->
 
 <a href="http://rosin-project.eu">
-  <img src="http://rosin-project.eu/wp-content/uploads/rosin_ack_logo_wide.png" 
+  <img src="http://rosin-project.eu/wp-content/uploads/rosin_ack_logo_wide.png"
        alt="rosin_logo" height="60" >
 </a>
 
-Supported by ROSIN - ROS-Industrial Quality-Assured Robot Software Components.  
+Supported by ROSIN - ROS-Industrial Quality-Assured Robot Software Components.
 More information: <a href="http://rosin-project.eu">rosin-project.eu</a>
 
-<img src="http://rosin-project.eu/wp-content/uploads/rosin_eu_flag.jpg" 
-     alt="eu_flag" height="45" align="left" >  
+<img src="http://rosin-project.eu/wp-content/uploads/rosin_eu_flag.jpg"
+     alt="eu_flag" height="45" align="left" >
 
-This project has received funding from the European Union’s Horizon 2020  
-research and innovation programme under grant agreement no. 732287. 
+This project has received funding from the European Union’s Horizon 2020
+research and innovation programme under grant agreement no. 732287.
 
 It was developed in collaboration between [Universal Robots](https://www.universal-robots.com/) and
 the [FZI Research Center for Information Technology](https://www.fzi.de).
@@ -41,7 +43,7 @@ Before creating an issue, please have a look at the [Troubleshooting section](#T
 To create an issue on the [Issue Board](https://github.com/UniversalRobots/Universal_Robots_ROS_Driver/issues/new) please use the default template.
 
 ## How to get help
-If you need help using this driver, please see the ROS-category in the [UR+ Developer Forum](https://forum.universal-robots.com/c/ros). 
+If you need help using this driver, please see the ROS-category in the [UR+ Developer Forum](https://forum.universal-robots.com/c/ros).
 
 ## Features
  * Works for all **CB3 (with software version >= 3.7) and e-Series (software >= 5.1)** robots and uses the RTDE interface for communication, whenever possible.
@@ -243,7 +245,7 @@ save installation and program, then no exception is raised when no connection
 to the fieldbus scanner can be established (note: This is only to get the
 `External Control` running. You probably want to make sure that a connection to
 the fieldbus scanner can indeed be made). If you don't use EtherNet/IP
-fieldbusses at all, you can disable it in the same installation screen. 
+fieldbusses at all, you can disable it in the same installation screen.
 
 ### When starting the driver, it crashes with `Variable 'speed_slider_mask' is currently controlled by another RTDE client`
 Probably, you are running into [#204](../../issues/204). Currently, this driver cannot be used together with an enabled

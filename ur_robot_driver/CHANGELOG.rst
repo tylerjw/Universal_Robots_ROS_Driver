@@ -1,3 +1,7 @@
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+Changelog for package ur_robot_driver
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
 0.0.3 (2019-08-09)
 ------------------
 * Added a service to end ROS control from ROS side
